@@ -66,4 +66,40 @@ header div {
     color: #f4f4f4;
 }
 
+
+/* section destaque */
+
+.sesaocartaz {
+    background-color: #0D1B5D;
+    max-width: 1314px;
+    width: 100%;
+    min-height: 439px;
+}
+
+.sesaocartaz h2 {
+    color: #f4f4f4;
+    font-weight: 200;
+}
+
+.DivisaoCards {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    width: 182px;
+    height: 250px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.cards div {
+    background-color: #000000;
+    color: #f4f4f4;
+}
+
+
+
 /* Footer */
