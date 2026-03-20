@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+/* Header */
+
+header {
+    background-color: #0D1B5D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 99px;
+    width: 1440;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.pesquisar {
+    width: 40px;
+    height: 40px;
+}
+
+.login {
+    width: 70px;
+    height: 40px;
+}
+
+/* Main */
+
+.filme-exposition {
+    display: flex;
+    gap: 10px;
+    background-image: url(https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/4993/0911c95a2077f2ff4f9077d78c846f6f.jpg);
+    height: 484px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filme-exposition > div:first-child {
+    width: 248px;
+    height: 380px;
+}
+
+.filme-exposition img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.filme-exposition div {
+    color: #f4f4f4;
+}
+
+/* Footer */
