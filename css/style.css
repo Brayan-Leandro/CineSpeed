@@ -29,7 +29,6 @@ header h1 {
 
 header span {
     font-family: Irish Grover;
-    font-weight: 100;
 }
 
 header nav {
@@ -42,6 +41,10 @@ header nav {
     font-weight: 10px;
 }
 
+header h3 {
+    font-weight: 300;
+}
+
 header div {
     display: flex;
     align-items: center;
@@ -51,6 +54,7 @@ header div {
 .pesquisar {
     width: 40px;
     height: 40px;
+    background-image: url(https://www.citypng.com/public/uploads/preview/search-explore-white-icon-transparent-png-701751695037015aogz4s2rh6.png);
 }
 
 .login {
@@ -67,7 +71,12 @@ header div {
 .filme-exposition {
     display: flex;
     gap: 10px;
+
     background-image: url(https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/4993/0911c95a2077f2ff4f9077d78c846f6f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     height: 484px;
     align-items: center;
     justify-content: center;
@@ -77,6 +86,20 @@ header div {
     width: 248px;
     height: 380px;
 }
+
+.conteudo {
+    margin: 0 0 50px 0;
+}
+
+.info-filme {
+    padding: 0 0 120px 0;
+}
+
+.filme-exposition h2 {
+    margin: 0 0 10px 0;
+}
+
+
 
 .filme-exposition img {
     width: 100%;
